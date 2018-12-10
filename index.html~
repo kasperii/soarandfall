@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="css/Style.css">
+
+<head>
+  <meta charset="utf-8"/>
+    <title>
+        Soar et Fall
+    </title>
+    <link rel="icon" href="./img/favicon.ico" type="image/vnd.microsoft.icon" />
+</head>
+
+<body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/functions.js"></script>
+
+<header>
+  <div class="filler">
+  </div>
+
+  <div class="logo-mid"><img class="text-svg" src="img/cube.svg" onerror="this.onerror=null; this.src='img/logga.png'">
+  </div>
+</header>
+
+
+<about>
+
+ <h3 id="aboutMe"></h3>
+
+
+<div class="logo">
+ <img src="img/soarCube2.svg" alt="soar et fall - logo" />
+</div>
+
+
+ <div class="blurb">
+   <p><strong>This is a</strong> Soar & Fall! 
+
+     ...
+</p>
+  <p>
+
+More text
+</p>
+  <p>
+and more..?
+</p>
+
+ </div>
+
+
+
+</about>
+
+<section class="alt-section section-work">
+    <h3 id="work">Game aspects</h3>
+
+    <div class="work-belt">
+        <div class="thumb-wrap">
+            <div class="thumb-container">
+
+                <div id="proj-1" href="" class="thumb-unit" style="background-image: url('./img/work/gameplay/thumb.png')">
+                    <div class="thumb-overlay">
+                        <strong>The game</strong>
+                        <!--<div class="zoomIcon"><img src="img/zoom.svg"></div>-->
+                    </div>
+                </div>
+                <div id="proj-7" href="" class="thumb-unit" style="background-image: url('./img/work/proc/thumb.png')">
+                    <div class="thumb-overlay">
+                        <strong>Our progress</strong>
+                        <!--<div class="zoomIcon"><img src="img/zoom.svg"></div>-->
+                    </div>
+                </div>
+
+                <div id="proj-2" href="" class="thumb-unit" style="background-image: url('./img/work/GameMec/thumb.png')">
+                    <div class="thumb-overlay">
+                        <strong>Game mechanics</strong>
+                        <!--<div class="zoomIcon"><img src="img/zoom.svg"></div>-->
+                    </div>
+                </div>
+
+                <div id="proj-4" href="" class="thumb-unit" style="background-image: url('./img/work/sound/thumb.png')">
+                    <div class="thumb-overlay">
+                        <strong>Sound system</strong>
+                        <!--<div class="zoomIcon"><img src="img/zoom.svg"></div>-->
+                    </div>
+                </div>
+
+                <div id="proj-3" href="" class="thumb-unit" style="background-image: url('./img/work/Multi/thumb.png')">
+                    <div class="thumb-overlay">
+                        <strong>Multiplayer aspect</strong>
+                        <!--<div class="zoomIcon"><img src="img/zoom.svg"></div>-->
+                    </div>
+                </div>
+
+                <div id="proj-5" href="" class="thumb-unit" style="background-image: url('./img/work/shader/thumb.png')">
+                    <div class="thumb-overlay">
+                        <strong>Shader magic</strong>
+                        <!--<div class="zoomIcon"><img src="img/zoom.svg"></div>-->
+                    </div>
+                </div>
+
+                <div id="proj-6" href="" class="thumb-unit" style="background-image: url('./img/work/postPros/thumb.png')">
+                    <div class="thumb-overlay">
+                        <strong>Post processing</strong>
+                        <!--<div class="zoomIcon"><img src="img/zoom.svg"></div>-->
+                    </div>
+                </div>
+
+                <div id="proj-8" href="" class="thumb-unit" style="background-image: url('./img/work/lit/Data.jpg')">
+                    <div class="thumb-overlay">
+                        <strong>Papers</strong>
+                        <!--<div class="zoomIcon"><img src="img/zoom.svg"></div>-->
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+        <div class="work-wrap">
+
+            <div class="work-container">
+                <div class="work-return"><img src="img/logga_back.svg" onerror="this.onerror=null; this.src='img/logga.png'"></div>
+                <h4 class="project-title">one work</h4>
+                <div class="project-load"></div>
+
+            </div>
+        </div>
+
+        </div>
+</section>
+
+
+<about>
+
+ <h3 id="aboutMe">The team</h3>
+
+ <div class="face-lockup">
+
+
+  <div class="icon1"><a href="https://www.linkedin.com/in/axel-soll/"><img src="img/sol_100.png"></a><p>Axel Soll</p></div>
+  <div class="icon2"><a href="https://www.linkedin.com/in/dui-ardal-9b197a124/"><img src="img/dui_100.png"></a><p>Dui Ardal</p></div>
+  <div class="icon3"><a href="https://www.linkedin.com/in/kasper-karlgren-55b04693"><img src="img/kasper_100.png"></a><p>Kasper Karlgren</p></div>
+  <div class="icon4"><a href="https://www.linkedin.com/in/petraol/"><img src="img/petra_100.png"></a><p>Petra Olsson</p></div>
+  <div class="icon5"><a href="https://www.linkedin.com/in/julien-rouault/"><img src="img/julien_100.png"></a><p>Julien Rouault</p></div>
+
+
+ </div>
+ <div class="blurb">
+  <p><strong>This is who</strong> we are, do not be afraid to contact us! </a>
+   </p>
+ </div>
+
+
+</about>
+
+<footer>
+
+ <div class="lockup">
+  <div class="logo"><img src="img/beBeam-05.svg" onerror="this.onerror=null; this.src='img/logga.png'">
+  </div>
+  <div class="contentWrap" >
+   <nav>
+       <a  href="mailto:kasper@bedford.st">contact me!</a>
+   </nav>
+      <p class="copyright"> <a href="https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/lag-1960729-om-upphovsratt-till-litterara-och_sfs-1960-729">
+          All content copyright 2018 </a> </p>
+  </div>
+ </div>
+</footer>
+
+
+</body>
+</html>

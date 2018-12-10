@@ -1,0 +1,20 @@
+{
+  "name": "kasper",
+  "description": "nice page",
+  "main": "index.js",
+  "authors": [
+    "kasper"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "page"
+  ],
+  "homepage": "https://github.com/kasperii/kasperii.github.io",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
