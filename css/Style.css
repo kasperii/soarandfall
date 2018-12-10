@@ -536,7 +536,7 @@ header .kicker {
 }
 
 footer {
-  background: url(../img/backF.png) center center;
+  background: url(../img/backgroundwoCubbe.png) center center;
   background-size: cover;
 }
 footer::after {
