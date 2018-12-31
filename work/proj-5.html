@@ -1,28 +1,12 @@
-<p>My main goal during this project has been to lift the effect of the light beams being in the physical room. First implementation was by creating light sourcec along the light beams - this proved to be challanging
-  since lightsources are rarely linear. <a href=https://github.com/Unity-Technologies/VolumetricLighting> Tube light</a>, volymetric light and emission workes best if baked (pre calculated light maps). Non-real time light was not an option.
-</p><p>
-As Robin persued post processing effects on the light - this would create local effect of light.
-I chose to focus on the floor. What if I would create a shader that took the light beam location and
-light up the detected plane mesh.
-</p><p>
-Since the light works as a line, the calculations would not be to hard. The start- and end-points is all that is needed.
-</p>
-<iframe src="https://giphy.com/embed/5z60tXGtmdlStTDRJ5" width="480" height="356" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 <p>
-This animation above shows how relative placement between the pixel and the start point of the light beam can affect the hue of the plane.
+<strong>To build a</strong> game that could last longer than the bare minimum for a presentation, has to be built in a stable matter. This game is build to be scalable and modable freely. Not only can we freelyt change the size of the work, we can also add new blocks, new items and new crafting recipies easilty. 
 </p>
-
-<iframe src="https://giphy.com/embed/1acLDblpR93aplUycq" width="480" height="254" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 <p>
-I succesfully managed to make an relative angle between the "start of the light beam",the pixel and the camera affect the hue of the pixel. The angle of how you look at the surface shows different light - as in a real reflection.
+<strong>
+This demo is</strong> built to last and features a in editor level desinger tool. It allows you to choose blocks types and shapes, combine them and place them wherever wanted within the biome boundaries. A preview system allows you to see where the item or block you’re placing is going to be.
 </p>
-<iframe src="https://giphy.com/embed/iq0FbzW7edbiTFIdRu" width="480" height="236" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+<iframe src="https://giphy.com/embed/3gK833zPQSrA7vlOW3" width="480" height="282" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 <p>
-Unfortunately this is where I am so far. My calculation manage somehow break the reflection. I will keep you posted on further development.
+<strong>
+    In the future</strong>, we would work towars a editor with options to add new crafting recipes, narrator triggers, etc… It would enable a really fast creation of stories and worlds while separating it from the creation of the game engine itself. It could also be given to the players for them to create their own stories and worlds.
 </p>
-<a href=https://www.gamedevs.org/uploads/real-shading-in-unreal-engine-4.pdf>Paper on the topic of linear light sources - this approach is similar to mine!</a>
-<p>
-  I have, besides shaders, developed this site, designed artwork and posters, doing research and, most of all, helped debugging.
-</p>
-<img src="img/kasper_100.png">
-<p>Signed Kasper Karlgren</p>

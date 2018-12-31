@@ -1,0 +1,31 @@
+<p>
+  Responsibilities during this project has mainly included how the game mechanics work,
+  i.e. the way the laser and its raycast behaves with other objects.
+  It works by checking if a raycast hits objects with certain tags, and if so,
+  instantiate new vertex points of a line renderer to draw new lines reflected
+  according to the object surface normal. In edit mode, it works in a similar way,
+  the crosshair shoots a raycast and if it hits a placed mirror, it places it as a child
+  of the camera to freely move and rotate it. An outline script is activated to visualize
+  what object is being edited.
+</p>
+<iframe src="https://giphy.com/embed/i4xtt53F6FYTbxjPbc" width="480" height="242" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+<p>
+  We used a plugin called Neuston to implement shadows on the ground from the virtual
+  obstacles and objects placed. The shadows are low poly but it’s a cool effect regardless.
+  The completely transparent floor texture was also an improvement from the built in floor grid in
+  ARCore. When a laser hits the ground, a burn mark and a laser explosion is created on the AR ground object.
+</p>
+<p>
+  I have also developed all particle effects and models. The models were created in
+  Blender and textured with existing albedo maps. The mirrors are using a gem shader
+  as the center part of the object. The material of the square obstacles are modified
+  lava shaders with a script to scroll the albedo and normal maps. Due to time constraints,
+  the goal model was a premade asset from CubeBrush.
+
+  Finally, I created most game design scripts, such as ChangeColorOnGoal, as well as all
+  game interaction with buttons, mirror placing and level progression.
+
+
+</p>
+<img src="img/erik_100.png">
+<p>Signed Erik Lindström</p>
