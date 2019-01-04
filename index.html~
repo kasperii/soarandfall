@@ -36,14 +36,11 @@
  <div class="blurb">
    <p><strong>This is a</strong> Soar and Fall! 
 
-     ...
+     
 </p>
   <p>
 
-More text
-</p>
-  <p>
-and more..?
+A slow pace, explorative game experience set in a broken world, high up in the clouds.
 </p>
 
  </div>
@@ -59,57 +56,57 @@ and more..?
         <div class="thumb-wrap">
             <div class="thumb-container">
 
-                <div id="proj-1" href="" class="thumb-unit" style="background-image: url('./img/work/gameplay/thumb.png')">
+                <div id="proj-1" href="" class="thumb-unit" style="background-image: url('./img/work/p1.png')">
                     <div class="thumb-overlay">
                         <strong>The game</strong>
                         <!--<div class="zoomIcon"><img src="img/zoom.svg"></div>-->
                     </div>
                 </div>
-                <div id="proj-7" href="" class="thumb-unit" style="background-image: url('./img/work/proc/thumb.png')">
+                <div id="proj-2" href="" class="thumb-unit" style="background-image: url('./img/work/p2.png')">
                     <div class="thumb-overlay">
-                        <strong>Our progress</strong>
+                        <strong>The Story</strong>
                         <!--<div class="zoomIcon"><img src="img/zoom.svg"></div>-->
                     </div>
                 </div>
 
-                <div id="proj-2" href="" class="thumb-unit" style="background-image: url('./img/work/GameMec/thumb.png')">
+                <div id="proj-3" href="" class="thumb-unit" style="background-image: url('./img/work/p3.png')">
                     <div class="thumb-overlay">
                         <strong>Game mechanics</strong>
                         <!--<div class="zoomIcon"><img src="img/zoom.svg"></div>-->
                     </div>
                 </div>
 
-                <div id="proj-4" href="" class="thumb-unit" style="background-image: url('./img/work/sound/thumb.png')">
+                <div id="proj-4" href="" class="thumb-unit" style="background-image: url('./img/work/p4.png')">
                     <div class="thumb-overlay">
-                        <strong>Sound system</strong>
+                        <strong>Aesthetics</strong>
                         <!--<div class="zoomIcon"><img src="img/zoom.svg"></div>-->
                     </div>
                 </div>
 
-                <div id="proj-3" href="" class="thumb-unit" style="background-image: url('./img/work/Multi/thumb.png')">
+                <div id="proj-5" href="" class="thumb-unit" style="background-image: url('./img/work/p5.png')">
                     <div class="thumb-overlay">
-                        <strong>Multiplayer aspect</strong>
+                        <strong>Scalable game</strong>
                         <!--<div class="zoomIcon"><img src="img/zoom.svg"></div>-->
                     </div>
                 </div>
 
-                <div id="proj-5" href="" class="thumb-unit" style="background-image: url('./img/work/shader/thumb.png')">
+                <div id="proj-6" href="" class="thumb-unit" style="background-image: url('./img/work/p6.png')">
                     <div class="thumb-overlay">
-                        <strong>Shader magic</strong>
+                        <strong>Sounds</strong>
                         <!--<div class="zoomIcon"><img src="img/zoom.svg"></div>-->
                     </div>
                 </div>
 
-                <div id="proj-6" href="" class="thumb-unit" style="background-image: url('./img/work/postPros/thumb.png')">
+                <div id="proj-7" href="" class="thumb-unit" style="background-image: url('./img/work/p7.png')">
                     <div class="thumb-overlay">
-                        <strong>Post processing</strong>
+                        <strong>Assets</strong>
                         <!--<div class="zoomIcon"><img src="img/zoom.svg"></div>-->
                     </div>
                 </div>
 
-                <div id="proj-8" href="" class="thumb-unit" style="background-image: url('./img/work/lit/Data.jpg')">
+                <div id="proj-8" href="" class="thumb-unit" style="background-image: url('./img/work/p8.png')">
                     <div class="thumb-overlay">
-                        <strong>Papers</strong>
+                        <strong>Source code</strong>
                         <!--<div class="zoomIcon"><img src="img/zoom.svg"></div>-->
                     </div>
                 </div>
