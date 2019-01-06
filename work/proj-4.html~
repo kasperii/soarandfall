@@ -1,4 +1,19 @@
 <p>
-<iframe src="https://giphy.com/embed/9rg3jQDXsjaWYNCXI6" width="480" height="374" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-
+<strong>Much of the</strong> game follows a very flat and low poly design. Most of the assets are self made. The skybox is made using illustrator and puzzled into a cube in unity.
+The textures are also created by us.
 </p>
+<p>  
+<strong> To make the </strong> visual impact of the game more dynamic we developed own shaders for out water and waterfalls. These shaders does both animate the water and animate a flow and loss of opacity, borderless to the water source, for the waterfall.
+
+<iframe src="https://giphy.com/embed/xAQ9YEIVGbm1E9848p" width="480" height="336" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+
+<!--<iframe src="https://giphy.com/embed/9rg3jQDXsjaWYNCXI6" width="480" height="374" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+-->
+</p>
+<p>
+<strong>
+Besides the game
+</strong> aesthetics, we also worked with the UI and PR materials. There menues are are fully functional, and could be used to reset, to save or load a game file.
+ 
+</p>
+<img src="img/work/menu.png">
