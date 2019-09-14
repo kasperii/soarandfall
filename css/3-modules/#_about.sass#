@@ -1,4 +1,4 @@
-about
+oabout
 
   h3
     @extend %small-bold
@@ -81,7 +81,6 @@ about
     font-weight: 300
     iframe
       width: 100%
-
   .videoclass
     max-width: 640px
     padding: 0 15px

@@ -11,7 +11,7 @@ about
     +size(200px)
     margin: 0 auto 0 auto
     img
-     +size(200px)
+      +size(200px)
   .face-lockup
     max-width: 780px
     +display(flex)
