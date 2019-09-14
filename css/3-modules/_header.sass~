@@ -1,4 +1,4 @@
-header
+oheader
   +clearfix
   height: 749px
   background: url(../img/background2.png) center center
@@ -14,7 +14,12 @@ header
     width: 50px
     float: left
     margin: 10px 0px 0px 30px
-
+  .price
+    height: 150px
+    width: 150px
+    margin: 100px auto auto 80% 
+    p
+      color: white
   nav
     float: right
     margin: 30px 30px 0 0

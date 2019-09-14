@@ -1,0 +1,124 @@
+.alt-section
+  background: $BGdark
+h3
+  @extend %small-bold
+  color: black
+  text-align: center
+  padding: 100px 0 30px
+.section-work
+  overflow-x: hidden
+.work-belt
+  width: 200%
+  +clearfix
+  position: relative
+  left: 0%
+  +transition(all 800ms)
+
+  //&.slided
+    +transform(translate3d(-50%, 0, 0))
+
+.thumb-wrap, .work-wrap
+  width: 50%
+  float: left
+  +clearfix
+
+
+
+
+.thumb-container
+  display: block
+  max-width: 960px
+  margin: 0 auto
+  padding-bottom: 100px
+  +clearfix
+
+  .thumb-unit
+    cursor: pointer
+    display: block
+    //what ngt om att dt :r en achortag
+    width: 25%
+    float: left
+    // att de l:gger sig i rader?
+    position: relative
+    padding-top: 14%
+    overflow: hidden
+
+    //g;mmer kanten som ska t;cka ;ver bilden
+
+    //background-image: url("../img/seal/seal.jpg")
+    background-position: center center
+    background-repeat: no-repeat
+    background-size: cover
+    @media screen and (max-width: 760px)
+      width: 50%
+      padding-top: 26%
+
+
+    //sass att jag f@r skriva p@ olika rader FYi
+
+    .thumb-overlay
+      +position(absolute, 100% 0px null 0px)
+      height: 100%
+      background: fade-out(black, 0.2)
+      text-align: center
+      +transition
+
+      //burboun mixin
+      //position: absolute
+      //top: 0
+      .zoomIcon
+        +size(40px)
+        margin: 0px auto
+
+
+      strong
+        display: block
+        padding: 0px 20px
+        color: white
+        font-weight: 300
+        text-transform: uppercase
+        font-size: 24px
+        line-height: 1.2
+    &:hover .thumb-overlay
+      +position(absolute, 0% 0px null 0px)
+.work-container
+
+  max-width: 800px
+  margin: 0 auto
+  position: relative
+  display: none
+  +clearfix
+  h4
+    color: black
+    font-weight: 300
+    text-transform: uppercase
+    font-size: 18px
+    line-height: 1.2
+    margin: 0 0 20px
+  img
+    max-width: 100%
+    margin-bottom: 20px
+  .work-return
+    position: -webkit-sticky
+    position: sticky
+    top: 10px
+    +size(40px)
+    cursor: pointer
+    opacity: 0.5
+
+    &:hover
+      background: $accent
+    border-radius: 50%
+    +position(absolute, null null null -60px)
+
+
+    &:hover
+      opacity: 1
+@media (max-width: 740px)
+
+  .work-container
+
+    .work-return
+      left: 0px
+    h4
+      margin-left: 60px

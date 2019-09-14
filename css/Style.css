@@ -395,6 +395,12 @@ header {
     width: 50px;
     float: left;
     margin: 10px 0px 0px 30px; }
+  header .price {
+    height: 230px;
+    width: 230px;
+    margin: 100px auto auto 70%; }
+    header .price p {
+      color: white; }
   header nav {
     float: right;
     margin: 30px 30px 0 0; }
@@ -651,7 +657,7 @@ h3 {
         margin: 0px auto; }
       .thumb-container .thumb-unit .thumb-overlay strong {
         display: block;
-        padding: 0px 20px;
+        padding: 40px 20px;
         color: white;
         font-weight: 300;
         text-transform: uppercase;
