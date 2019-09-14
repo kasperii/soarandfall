@@ -79,6 +79,8 @@ about
     margin: 100px auto 50px
     font-size: 18px
     font-weight: 300
+    iframe
+      width: 100%
 
   .videoclass
     max-width: 640px
