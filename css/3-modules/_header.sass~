@@ -1,4 +1,4 @@
-oheader
+header
   +clearfix
   height: 749px
   background: url(../img/background2.png) center center
@@ -14,10 +14,11 @@ oheader
     width: 50px
     float: left
     margin: 10px 0px 0px 30px
+
   .price
-    height: 150px
-    width: 150px
-    margin: 100px auto auto 80% 
+    height: 230px
+    width: 230px
+    margin: 100px auto auto 70%
     p
       color: white
   nav
@@ -37,7 +38,7 @@ oheader
       &:hover
         color: rgba(0,0,0,1)
   .logo-mid
-  
+
     width: 8%
     height: auto
     margin-left: auto
@@ -53,7 +54,7 @@ oheader
     padding:
       color: black
     font:
-      font-family: "Comforta-Light"
+      font-family: 'Montserrat', sans-serif
       size: 72px
       weight: 700px
 
