@@ -3,6 +3,7 @@
 <link rel="stylesheet" href="css/Style.css">
 
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <meta charset="utf-8"/>
     <title>
         Soar and Fall
@@ -18,7 +19,7 @@
   <div class="filler">
   </div>
 
-  <div class="logo-mid"><img class="text-svg" src="img/cube.svg" onerror="this.onerror=null; this.src='img/logga.png'">
+ <a href="https://www.tekniskamuseet.se/upplev/utstallningar/play-beyond-play/"> <div class="logo-mid"><img class="text-svg" src="img/cube.svg" onerror="this.onerror=null; this.src='img/logga.png'"></a>
   </div>
 <div class="price">
 <img src="img/award.svg"/>
